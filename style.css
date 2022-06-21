@@ -161,4 +161,29 @@ body {
   color: aliceblue;
 }
 
+.choose {
+  margin: 0 auto;
+}
+
+.choose h4 {
+  margin: 100px 0px 70px 220px;
+}
+
+.choose_select {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 150px 0px 125px;
+}
+
+.choose_img {
+  margin-bottom: 50px;
+}
+
+.choose_img img {
+  border: #2d4059 2px solid;
+  height: 200px;
+  width: 230px;
+  margin-bottom: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
