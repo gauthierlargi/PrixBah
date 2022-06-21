@@ -61,16 +61,29 @@
     text-decoration: none;
 }
 
+
+
 .grid{
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    gap: 20px;
+    gap:25px;
+}
+
+.box-grid{
+    height: 168px;
+    width: 160px;
+    border-radius: 40px;
+    
+    text-align: center;
+    color: white;
+    background-color: #2D4059;
     
 }
 
-.categorie{
-    border: 2px solid black;
+i{
+    
 }
+
 
 
 
