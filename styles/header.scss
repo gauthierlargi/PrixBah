@@ -32,26 +32,25 @@ body{
 .incons_info{
     display: flex;
     justify-content: flex-end;
+    margin-right: 75px;
 }
 .bloc_contain{
     display: flex;
     align-items: center;
+    margin-right: 22px;
 }
 .icons{
-   
     background-color: #EA5455;
     border-radius: 50%;
-    padding: 1px 5px 1.5px 5px;
+    padding: 1.5px 5.5px 1.5px 5.5px;
     text-align: center;
 }
 .bloc_contain li{
     list-style: none;
     padding-left: 10px;
-    margin-right: 50px;
-    font-size: 12px;
+    font-size: 11px;
 }
 //**************************
-
 .nav_search{ 
     display: flex;
     background-color: #2d4059;
@@ -62,7 +61,7 @@ body{
     justify-content: space-around;
 }
 .search{
-    padding-left: 200px;
+    padding-left: 170px;
 }
 .search select{
     color: black;
