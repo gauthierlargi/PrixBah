@@ -1,0 +1,76 @@
+.font{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.bestsellers{
+    margin-top: 60px;
+    font-weight: 700;
+    color: #EA5455;
+}
+
+.container-scroll{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-shadow{
+    margin: 30px 0px 0px 0px;
+    padding: 8px;
+
+    box-shadow: 0px 0px 10px 1px rgba(192, 192, 192, 0.534) ;
+}
+
+.img-all{
+    height: 135px;
+    width: 150px;
+}
+
+.ham{
+    margin-top: 3px;
+    font-weight: 700;
+}
+
+.price-stock{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.price-stock p:nth-child(2){
+    color: rgb(30, 223, 30);
+}
+
+/*Offre par catégorie*/
+
+.offer{
+    display: flex;
+    font-weight: 700;
+    align-items: baseline ;
+    color: #EA5455;
+    
+}
+
+.see-all{
+    margin-left: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+    
+}
+
+.categorie{
+    border: 2px solid black;
+}
+
+
+
