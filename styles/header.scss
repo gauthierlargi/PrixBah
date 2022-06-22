@@ -102,7 +102,7 @@ body{
 
 }
 .choose h4{
-    margin: 100px 0px 70px 220px;
+    margin: 50px 0px 50px 0px;
     color: #EA5455;
     font-weight: bold;
 }
@@ -112,16 +112,15 @@ body{
 }
 .choose_img{
    margin-bottom: 50px;
-
+   text-align: center;
 }
 .choose_img img{
     border: #2d4059 2px solid;
     height: 200px;
-    width: 250px;
-    margin-bottom: 15px;
+    width: 230px;
+    margin-bottom: 30px;
 }
 .choose_img p{
-    text-align: center;
     color: #EA5455;
     font-weight: bold;
-}
+  }
