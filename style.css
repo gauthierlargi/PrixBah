@@ -3,3 +3,19 @@ h1 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.legal {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  background-color: #2d4059;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer_links {
+  display: flex;
+  padding: 0px;
+  background-color: #ebebeb;
+  color: #2d4059;
+}
