@@ -1,14 +1,55 @@
 .legal {
     display: flex;
     justify-content: center;
-    padding: 0px;
+    padding: 10px;
     background-color: #2d4059;
     color: #fff;
-    }
+}
   
-.footer_links {
+.footer_href {
     display: flex;
-    padding: 0px;
-    background-color: #ebebeb;
+    justify-content: space-around;
+    padding: 50px ;
+    background-color: #fffefe;
     color: #2d4059;
+}
+.footer_contain{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer_contain a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+}
+.footer_info{
+    background-color: #2d4059;
+    padding: 30px;
+}
+.footer_container{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.footer_icons{
+    background-color: white;
+    height: 2px;
+    width: 2px;
+    border-radius: 25px;
+    padding: 12px;
+    color: #EA5455;
+}
+.footer_box{
+    width: 190px;
+    color: #fff;
+}
+.footer_box h4{
+    font-size: 14px;
+}
+.footer_box p{
+    font-size: 12px;
+    padding-top: 10px;
 }
