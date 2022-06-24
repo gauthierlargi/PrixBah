@@ -97,12 +97,14 @@
     font-weight: bold;
 }
 .choose_select{
-    display: flex;justify-content: space-around;
-    padding: 0px 135px 0px 135px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .choose_img{
-   margin-bottom: 50px;
-   text-align: center;
+    margin-bottom: 50px;
+   
+    text-align: center;
 }
 .choose_img img{
     border: #2d4059 2px solid;
@@ -113,5 +115,56 @@
 .choose_img p{
     color: #EA5455;
     font-weight: bold;
-  }
+}
 
+@media screen and (max-width: 900px){
+
+    .container-main{
+        max-width: 600px;
+    }
+
+
+    .bestsellers{
+        text-align: center;
+    }
+
+    .box-shadow{
+        padding: 10px;
+    }
+
+    .img-all{
+        height: 110px;
+        width: 120px;
+    }
+
+    /* Découvre offre */
+
+    .offer{
+        justify-content: center;
+    }
+
+    .grid{
+        gap: 15px;
+    }
+
+    .box-grid{
+
+        height: 78px;
+        width: 80px;
+        
+        border-radius: 20px;
+    }
+    
+    .box-text{
+
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .box-text p{
+        font-size: 10px;
+    }
+
+    /* Avoir prix marché */
+
+}

@@ -92,5 +92,45 @@ body{
     color: aliceblue;
 }
 
+/* Media-querie */
 
+@media screen and (max-width: 900px) {
+
+    
+
+
+    .info_1{
+        width: 400px;
+    }
+
+    .info_1 h2{
+        margin-bottom: 20px;
+    }
+
+    .incons_info{
+        display: flex;
+        justify-content: flex-end;
+        margin: 0px;
+    }
+
+    .nav_search{
+        display: block;
+        text-align: center;
+        
+    }
+    
+    .search{
+        margin-bottom: 20px;
+    }
+
+    .search select{
+        width: 100px;
+        padding-right: 0px;
+        
+    }
+
+    .search button{
+        margin-right: 0;
+    }
+}
 

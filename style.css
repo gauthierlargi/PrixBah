@@ -206,8 +206,7 @@ table {
 
 .choose_select {
   display: flex;
-  justify-content: space-around;
-  padding: 0px 135px 0px 135px;
+  justify-content: space-between;
 }
 
 .choose_img {
@@ -227,6 +226,50 @@ table {
   font-weight: bold;
 }
 
+@media screen and (max-width: 900px) {
+  .container-main {
+    max-width: 600px;
+  }
+
+  .bestsellers {
+    text-align: center;
+  }
+
+  .box-shadow {
+    padding: 10px;
+  }
+
+  .img-all {
+    height: 110px;
+    width: 120px;
+  }
+
+  /* Découvre offre */
+  .offer {
+    justify-content: center;
+  }
+
+  .grid {
+    gap: 15px;
+  }
+
+  .box-grid {
+    height: 78px;
+    width: 80px;
+    border-radius: 20px;
+  }
+
+  .box-text {
+    font-size: 14px;
+    margin: 10px;
+  }
+
+  .box-text p {
+    font-size: 10px;
+  }
+
+  /* Avoir prix marché */
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -328,6 +371,40 @@ body {
   color: aliceblue;
 }
 
+/* Media-querie */
+@media screen and (max-width: 900px) {
+  .info_1 {
+    width: 400px;
+  }
+
+  .info_1 h2 {
+    margin-bottom: 20px;
+  }
+
+  .incons_info {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+  }
+
+  .nav_search {
+    display: block;
+    text-align: center;
+  }
+
+  .search {
+    margin-bottom: 20px;
+  }
+
+  .search select {
+    width: 100px;
+    padding-right: 0px;
+  }
+
+  .search button {
+    margin-right: 0;
+  }
+}
 .main_box {
   width: 1050px;
   height: 650px;
