@@ -113,6 +113,11 @@ table {
   padding-top: 10px;
 }
 
+@media screen and (max-width: 980px) {
+  .footer_container {
+    flex-direction: column;
+  }
+}
 .font {
   font-family: "Montserrat", sans-serif;
 }
@@ -226,6 +231,21 @@ table {
   font-weight: bold;
 }
 
+@media screen and (max-width: 980px) {
+  .container-scroll {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .choose_select {
+    display: block;
+  }
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -247,10 +267,6 @@ body {
 .logo_black a {
   margin-left: 15px;
   font-weight: bold;
-}
-
-.info_1 {
-  width: 700px;
 }
 
 .info_1 h2 {
@@ -327,6 +343,19 @@ body {
   color: aliceblue;
 }
 
+@media screen and (max-width: 980px) {
+  .head {
+    display: block;
+  }
+
+  .nav_search {
+    display: block;
+  }
+
+  .nav_bar {
+    padding: 30px;
+  }
+}
 .main_box {
   width: 1050px;
   height: 650px;

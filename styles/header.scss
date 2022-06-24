@@ -20,9 +20,7 @@ body{
     font-weight: bold;
 }
 //******************************
-.info_1{
-    width: 700px;
-}
+
 .info_1 h2{
     text-align: center;
     font-size: 18px;
@@ -92,5 +90,15 @@ body{
     color: aliceblue;
 }
 
-
+@media screen and (max-width: 980px) {
+    .head{
+        display: block;
+    }
+    .nav_search{
+        display: block;
+    }
+    .nav_bar{
+        padding: 30px;
+    }
+}
 

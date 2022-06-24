@@ -116,3 +116,17 @@
     font-weight: bold;
   }
 
+@media screen and (max-width:980px) {
+    .container-scroll{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .grid{
+        grid-template-columns: repeat(3,1fr);
+        gap:20px;
+    }
+    .choose_select{
+        display: block;
+    }
+}
