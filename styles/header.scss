@@ -94,11 +94,32 @@ body{
     .head{
         display: block;
     }
+    .logo_black img{
+        margin: auto;
+    }
+    .logo_black h1{
+        display: none;
+    }
+    .info_1 h2{
+        padding-top: 10px;
+    }
+    .incons_info{
+        display: none;
+    }
+    // ****************
     .nav_search{
         display: block;
     }
+    .search{
+        display: none;
+    }
     .nav_bar{
-        padding: 30px;
+       text-align: center;
+    }
+}
+@media screen and (max-width:380px) {
+    .nav_bar a{
+        padding: 1px;
     }
 }
 

@@ -22,7 +22,7 @@
 .footer_contain a{
     text-decoration: none;
     padding: 10px;
-    font-weight: 500;
+    font-weight: bold;
 }
 .footer_info{
     background-color: #2d4059;
@@ -48,6 +48,7 @@
 }
 .footer_box h4{
     font-size: 14px;
+    font-weight: bold;
 }
 .footer_box p{
     font-size: 12px;
@@ -55,7 +56,31 @@
 }
 
 @media screen and (max-width: 980px) {
+    footer{
+        margin-top: 25px;
+    }
     .footer_container{
         flex-direction: column;
     }
+    .footer_icons{
+        display: none;
+        // trop galére pour centré
+    }
+    .footer_box{
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .footer_box h4{
+        color: #EA5455;
+        padding-bottom: 10px;
+    }
+    .footer_href{
+        display: block;
+        
+    }
+    .footer_contain a{
+       margin: 0 auto;
+       padding-top: 10px;
+    }
+    
 }

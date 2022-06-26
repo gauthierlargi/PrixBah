@@ -117,16 +117,31 @@
   }
 
 @media screen and (max-width:980px) {
-    .container-scroll{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        
+    .bestsellers{
+        text-align: center;
+    }
+    .blocmobilefirst{
+        margin: auto;
+        margin-top: 15px;
+    }
+    .bloc_mobile{
+        display: none;
+    }
+    .offer{
+        display: block;
+        text-align: center;
     }
     .grid{
-        grid-template-columns: repeat(3,1fr);
-        gap:20px;
-    }
-    .choose_select{
         display: block;
+    }
+    .box-grid{
+        margin: 0 auto;
+        
+    }
+    .box-text{
+        padding-top: 26px;
+    }
+    .choose{
+        display: none;
     }
 }
